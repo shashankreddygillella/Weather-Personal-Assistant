@@ -6,7 +6,7 @@ A CLI personal assistant that fetches **live weather** for Houston, TX, reads yo
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # No installation needed — uses Python standard library only
@@ -18,7 +18,7 @@ _(Optional: `pip install requests` for slightly faster HTTP — the app works wi
 
 ---
 
-## 🧪 Run Tests
+##  Run Tests
 
 ```bash
 pip install pytest
@@ -29,7 +29,7 @@ Expected output: **46 passed**
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 weather-assistant/
@@ -49,7 +49,7 @@ weather-assistant/
 
 ---
 
-## 📅 Customizing Your Schedule
+## Customizing Your Schedule
 
 Edit `calendar.json` to add your own events:
 
@@ -70,7 +70,7 @@ Edit `calendar.json` to add your own events:
 
 ---
 
-## 🌡️ How the Advice Engine Works
+## How the Advice Engine Works
 
 The rule engine in `advisor.py` checks each event in order:
 
@@ -89,13 +89,13 @@ The engine uses **hourly forecast data** matched to each event's start hour for 
 
 ---
 
-## 📡 Data Source
+## Data Source
 
 Weather data from [Open-Meteo](https://open-meteo.com/) — free, no API key required, updated hourly.
 
 ---
 
-## 🎯 Vibe Report
+## Vibe Report
 
 ### 1. Where did the AI's "vibe" drift?
 
@@ -139,4 +139,3 @@ This single prompt restructured the entire codebase into the clean modular archi
 
 ---
 
-*Built with Python 3.12 · Open-Meteo API · pytest · No LLMs harmed in the making of this rule engine*
